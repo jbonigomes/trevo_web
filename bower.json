@@ -2,5 +2,8 @@
   "name": "trevo-web",
   "version": "0.0.0",
   "dependencies": {
+    "open-sans": "~1.1.0",
+    "font-awesome": "~4.3.0",
+    "bootstrap": "~3.3.4"
   }
 }
