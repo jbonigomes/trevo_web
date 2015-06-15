@@ -1,11 +1,18 @@
 function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
+  var myLatlng = new google.maps.LatLng(-30.190061, -52.372276);
   var mapOptions = {
-    center: new google.maps.LatLng(44.5403, -78.5463),
-    zoom: 8,
+    center: myLatlng,
+    zoom: 15,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   var map = new google.maps.Map(mapCanvas, mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title: 'Trevo Materiais de Construção'
+  });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
