@@ -15,5 +15,7 @@
   "strict": false,
   "trailing": true,
   "smarttabs": true,
-  "google": true
+  "predef": [
+    "google"
+  ]
 }
