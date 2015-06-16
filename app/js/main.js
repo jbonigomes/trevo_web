@@ -16,3 +16,12 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+$(document).ready(function() {
+
+  $('.btn-contact').click(function() {
+    $('#target').focus();
+    $('html, body').animate({ scrollTop: $(document).height() }, 1000);
+  });
+
+});

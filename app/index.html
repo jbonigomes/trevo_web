@@ -2,24 +2,6 @@
 layout: default
 ---
 
-<div class="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-6">
-        <img src="/img/logo.png">
-      </div>
-      <div class="col-xs-6 text-right phone-numbers">
-        <a href="tel:37341543">
-          <i class="fa fa-phone"></i> (o51) 37341543<br>
-        </a>
-        <a href="tel:97720235">
-          <i class="fa fa-mobile"></i> (o51) 97720235
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container">
   <div class="row">
     <div class="col-xs-12 intro">
@@ -35,7 +17,7 @@ layout: default
 <div class="container">
   <div class="row">
     
-    <div class="col-xs-3">
+    <div class="col-sm-3">
       <div class="item item-wood">
         <h4><i class="fa fa-tree"></i> Madeira</h4>
         <ul>
@@ -47,7 +29,7 @@ layout: default
       </div>
     </div>
 
-    <div class="col-xs-3">
+    <div class="col-sm-3">
       <div class="item item-construction">
         <h4><i class="fa fa-bank"></i> Construção</h4>
         <ul>
@@ -62,7 +44,7 @@ layout: default
       </div>
     </div>
 
-    <div class="col-xs-3">
+    <div class="col-sm-3">
       <div class="item item-general">
         <h4><i class="fa fa-wrench"></i> Geral</h4>
         <ul>
@@ -76,9 +58,9 @@ layout: default
       </div>
     </div>
 
-    <div class="col-xs-3">
+    <div class="col-sm-3">
       <div class="item item-order">
-        <h4><i class="fa fa-truck"></i> Por encomenda</h4>
+        <h4><i class="fa fa-truck"></i> Encomenda</h4>
         <ul>
           <li>Pisos</li>
           <li>Azulejos</li>
@@ -89,73 +71,3 @@ layout: default
 
   </div>
 </div>
-
-
-<div class="knees">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-2">
-        <h2>Horario</h2>
-        Segunda a Sexta:
-        <ul>
-          <li>8am - 12pm</li>
-          <li>1pm - 6pm</li>
-        </ul>
-        Sabado
-        <ul>
-          <li>8am - 12pm</li>
-        </ul>
-      </div>
-
-      <div class="col-xs-3">
-        <h2>Endereço</h2>
-        <div>
-          Rua Waldo Machado de Oliveira, 67<br>
-          Bairro centro,<br>
-          Pantano Grande, RS<br>
-          CEP: 96690-000<br>
-          <br>
-          <a href="tel:37341543">
-            <i class="fa fa-phone"></i> (o51) 37341543
-          </a><br>
-          <a href="tel:97720235">
-            <i class="fa fa-mobile"></i> (o51) 97720235
-          </a>
-        </div>
-      </div>
-
-      <div class="col-xs-4">
-        <div id="map-canvas"></div>
-      </div>
-
-      <div class="col-xs-3">
-        <form action="//formspree.io/jbonigomes@yahoo.com.br" method="POST">
-          <div class="form-group">
-            <input type="email" name="_replyto" placeholder="meu@email.com" class="form-control">
-          </div>
-          <div class="form-group">
-            <textarea name="mensagem" placeholder="Mensagem" class="form-control" rows="8"></textarea>
-          </div>
-          <div class="form-group n-m-b">
-            <input type="submit" value="Enviar" class="form-control">
-          </div>
-
-          <!-- <input type="hidden" name="_next" value="//site.io/thanks.html" /> -->
-          <input type="hidden" name="_subject" value="Mensagem do website Trevo" />
-          <input type="text" name="_gotcha" style="display:none" />
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="toes">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        Copyright trevo.com &copy; {{ site.time | date: '%Y' }} All rights reserved
-      </div>
-    </div>
-  </div>
-</div>
-
