@@ -234,6 +234,18 @@ module.exports = function (grunt) {
             //'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
+        },{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>/_bower_components/font-awesome/fonts',
+          src: ['**/*'],
+          dest: '<%= yeoman.dist %>/fonts'
+        },{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>/_bower_components/open-sans/fonts',
+          src: ['**/*'],
+          dest: '<%= yeoman.dist %>/fonts'
         }]
       }
     },
